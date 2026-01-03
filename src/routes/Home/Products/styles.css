@@ -1,0 +1,10 @@
+#dr-section-products {
+    padding: 20px 0;
+}
+
+.dr-category-container {
+    width: 100%;
+    height: 60px;
+    background-color: var(--dr-color-bg-tertiary);
+    padding: 20px;
+}

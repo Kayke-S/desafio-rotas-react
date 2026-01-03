@@ -21,6 +21,7 @@ export default function Header() {
               className={({ isActive }) =>
                 isActive ? "dr-mr20 dr-item-active" : "dr-mr20"
               }
+              
             >
               Produtos
             </NavLink>

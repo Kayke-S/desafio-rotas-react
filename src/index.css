@@ -10,17 +10,19 @@
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    font-family: 'Inter', sans-serif;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+  box-sizing: border-box;
 }
 
-body, main {
-    background-color: var(--dr-color-bg-secondary);
+body,
+main {
+  background-color: var(--dr-color-bg-secondary);
 }
 
-a, a:hover {
+a,
+a:hover {
   color: unset;
   text-decoration: none;
 }
@@ -41,4 +43,10 @@ a, a:hover {
 
 .dr-item-active {
   font-weight: 700;
+}
+
+.dr-item {
+  margin-right: 20px;
+  font-size: 16px;
+  color: var(--dr-color-font-secondary);
 }
