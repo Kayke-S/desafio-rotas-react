@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+:root {
+  --dr-color-bg-primary: #2d28ff;
+  --dr-color-bg-secondary: #ffffff;
+  --dr-color-bg-tertiary: #c7c7c7;
+
+  --dr-color-font-primary: #ffffff;
+  --dr-color-font-secondary: #000000;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    box-sizing: border-box;
+}
+
+body, main {
+    background-color: var(--dr-color-bg-secondary);
+}
+
+a, a:hover {
+  color: unset;
+  text-decoration: none;
+}
+
+.dr-container {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.dr-mr20 {
+  margin-right: 20px;
+}
+
+.dr-pv20 {
+  padding: 20px 0;
+}
+
+.dr-item-active {
+  font-weight: 700;
+}
