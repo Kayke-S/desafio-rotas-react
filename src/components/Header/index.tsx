@@ -26,7 +26,7 @@ export default function Header() {
               Produtos
             </NavLink>
             <NavLink
-              to="/about-us"
+              to="/about"
               className={({ isActive }) =>
                 isActive ? "dr-mr20 dr-item-active" : "dr-mr20"
               }

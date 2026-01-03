@@ -1,4 +1,4 @@
-export default function AboutUs() {
+export default function About() {
   return (
     <main>
       <div className="dr-container dr-pv20">

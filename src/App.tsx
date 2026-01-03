@@ -5,7 +5,7 @@ import Products from "./routes/Home/Products";
 import ComputerCategory from "./routes/Home/Products/ComputerCategory";
 import EletronicsCategory from "./routes/Home/Products/EletronicsCategory";
 import BooksCategory from "./routes/Home/Products/BooksCategory";
-import AboutUs from "./routes/Home/AboutUs";
+import About from "./routes/Home/About";
 import NotFound from "./routes/NotFound";
 
 export default function App() {
@@ -16,12 +16,11 @@ export default function App() {
           <Route index element={<Navigate to="/home" />} />
           <Route path="home" element={<HomeBody />} />
           <Route path="products" element={<Products />}>
-            <Route index element={<Navigate to="/products/computers" />} />
             <Route path="computers" element={<ComputerCategory />} />
             <Route path="eletronics" element={<EletronicsCategory />} />
             <Route path="books" element={<BooksCategory />} />
           </Route>
-          <Route path="about-us" element={<AboutUs />} />
+          <Route path="about" element={<About />} />
           <Route path="*" element={<NotFound />} />
         </Route>
       </Routes>
